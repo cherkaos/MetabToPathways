@@ -1,0 +1,9 @@
+Package: MetabToPath
+Type: Package
+Title: Query metabolites to find their pathways, for multiple databases (Kegg, SMPDB, HMDB and Biocyc)
+Version: 1.0
+Date: 2013-08-15
+Author: Sarah Cherkaoui
+Maintainer: Sarah Cherkaoui <cherkaos@gmail.com>
+Description: Use name or other id (pubchem, kegg…) to find in which pathway a metabolite are from. Query different databases such as: Kegg, SMPDB, HMDB and Biocyc in the same time. Also include function for batch query to find every pathway from different database, for each metabolite of a list. Can query specific databases (kegg) to find the pathway who has the most metabolite from query.  Also, can output result in latex and csv.
+License: UCDavis
