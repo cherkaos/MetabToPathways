@@ -1,6 +1,6 @@
 MetabToPath
 ===========
-R interface to query Pathways 
+R interface to query Pathway Databases 
 
 ```R
 install.packages("devtools")
