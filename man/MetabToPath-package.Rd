@@ -22,9 +22,14 @@ License: \tab TBA\cr
 }
 \author{
 Sarah Cherkaoui
+<<<<<<< HEAD
 
 Maintainer: Sarah Cherkaoui <cherkaos@gmail.com>
 
+=======
+
+Maintainer: Sarah Cherkaoui <cherkaos@gmail.com>
+>>>>>>> d62dd3d76cf343498c2bc24f7a09c07121dcdff6
 }
 \references{
 

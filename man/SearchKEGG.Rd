@@ -1,8 +1,7 @@
 \name{SearchKEGG}
 \alias{SearchKEGG}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-%%  ~~function to do ... ~~
+\title{Function to find a compound information using his id by looking in database which has kegg pathways
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
@@ -30,11 +29,12 @@ SearchKEGG(id, type)
 %% ...
 }
 \references{
-%% ~put references to the literature/web site here ~
+1. 4Creek DJ, Jankevics A, Burgess KE, Breitling R, Barrett MP. IDEOM: an Excel
+interface for analysis of LC-MS-based metabolomics data. Bioinformatics. 2012 Apr
+1;28(7):1048-9. 
+
 }
-\author{
-%%  ~~who you are~~
-}
+\author{Sarah Cherkaoui}
 \note{
 %%  ~~further notes~~
 }
