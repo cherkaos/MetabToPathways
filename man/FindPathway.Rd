@@ -35,11 +35,12 @@ Returns a list of information for every compound.
 Kegg: Kanehisa M, Goto S. KEGG: kyoto encyclopedia of genes and genomes. Nucleic
 Acids Res. 2000 Jan 1;28(1):27-30.
 
-SMPDB:
+SMPDB: Wishart DS, Frolkis A, Knox C, et al., SMPDB: The Small Molecule Pathway Database. Nucleic Acids Res. 2010 Jan;38(Database issue):D480-7
 
-HMDB:
+HMDB: Wishart DS, Tzur D, Knox C, et al., HMDB: the Human Metabolome Database. Nucleic Acids Res. 2007 Jan;35(Database issue):D521-6
 
-Biocyc	
+Biocyc: Caspi R, Altman T, Dale JM, Dreher K, Fulcher CA, Gilham F, Kaipa P, Karthikeyan AS, Kothari A,Krummenacker M, Latendresse M, Mueller LA, Paley S, Popescu L, Pujar A, Shearer AG, Zhang P, Karp PD. The MetaCyc database of metabolic pathways and enzymes and the BioCyc collection of pathway/genome databases. Nucleic Acids Res. 2010 Jan;38(Database issue):D473-9.
+
 }
 \author{Sarah Cherkaoui}
 \note{

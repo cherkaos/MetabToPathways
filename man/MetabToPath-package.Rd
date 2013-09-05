@@ -16,26 +16,27 @@ Package: \tab MetabToPath\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2013-08-16\cr
-License: \tab What license is it under?\cr
+License: \tab TBA\cr
 }
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-Who wrote it
+Sarah Cherkaoui
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+Maintainer: Sarah Cherkaoui <cherkaos@gmail.com>
+
 }
 \references{
-~~ Literature or other references for background information ~~
+
 }
 ~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~
 ~~ documentation directory ~~
-\keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
+\keyword{pathways}
+\keyword{kegg}
+\keyword{biocyc}
+\keyword{hmdb}
+\keyword{smpdb}
+
 \examples{
 ~~ simple examples of the most important functions ~~
 }
