@@ -1,0 +1,8 @@
+
+1. Download SMPDB lookup table locally and keep a copy in github
+
+2. Change function to get SMPDB table
+
+3. Update switch function in SearchHMDB
+
+4. 
