@@ -1,3 +1,3 @@
 exportPattern("^[[:alpha:]]+")
 export(MetabToPath)
-import(RCurl,stargazer,httr,XML)
+import(RCurl,stargazer,httr,XML,KEGGREST)
