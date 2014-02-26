@@ -19,7 +19,7 @@ Using **Biocyc Id** of a compound, get his **pathways**.
 
 *Organism specific:  multiorganism (metacyc), human(humancyc), ecoli(ecocyc), bacillus(bsubcyc)*
 
-Small Molecule Pathway Database [(SMPDB)](http://www.smpdb.ca/) 
+[Small Molecule Pathway Database](http://www.smpdb.ca/) (SMPDB)
 -----------
 
 Using **Name, HMDB Id, Kegg Id, ChEBI Id or Drugbank Id** of a compound, get his **pathways**.
@@ -27,7 +27,7 @@ Using **Name, HMDB Id, Kegg Id, ChEBI Id or Drugbank Id** of a compound, get his
 *Human specific*
 
 
-Human Metabolome Database [(HMDB)](http://www.hmdb.ca/)
+[Human Metabolome Database](http://www.hmdb.ca/) (HMDB)
 -----------
 
 Using **HMDB Id** of a compound, get is **pathways, synonyms, cellular location, tissue location and compound class**.
