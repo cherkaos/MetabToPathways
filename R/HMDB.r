@@ -4,13 +4,12 @@ library(RCurl)
 
 
 # HMDB: Function to get information (ex: pathways) of a compound
-# info can be: pathways, biocyc, synonyms, cellularLocation, biofluidLOCATION, tissueLOCATION, class (compound<s class)
+# info can be: pathways, synonyms, cellularLocation, biofluidLOCATION, tissueLOCATION, class (compound<s class)
 # Input: hmdb id of the compound
 # organism: human specific
 
 getHMDB <- function(id,info="pathways"){
                 if(info =="pathways")info = "pathway/name"
-				else if(info =="biocyc")info = "biocyc_id"
 				else if(info =="synonyms")info = "synonym"
 				else if(info =="cellularLOCATION")info = "tissue"
 				else if(info =="class")info = "super_class"
