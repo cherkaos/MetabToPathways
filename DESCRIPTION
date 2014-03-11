@@ -1,4 +1,4 @@
-Package: MetabToPath
+Package: MetabToPathway
 Type: Package
 Title: Query metabolites to find their pathways, for multiple databases (Kegg, SMPDB, HMDB and Biocyc)
 Version: 1.0
