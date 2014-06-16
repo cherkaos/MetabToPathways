@@ -9,9 +9,9 @@ library(RCurl)
 # organism: human specific
 
 getHMDB <- function(id,info="pathways"){
-                if(info =="pathways")info = "pathway/name"
-				else if(info =="synonyms")info = "synonym"
-				else if(info =="cellularLOCATION")info = "tissue"
+                if(info =="pathways")info = "/pathway/name"
+				else if(info =="/synonyms")info = "synonym"
+				else if(info =="/cellularLOCATION")info = "tissue"
 				else if(info =="class")info = "super_class"
 				else if(info =="name")info = "name"
 		
@@ -26,7 +26,7 @@ getHMDB <- function(id,info="pathways"){
 			else{
 				doc<-(xmlParse(xmlhttp))
 				# Parsing the xml file to get info wanted
-				src <- tryCatch(xpathSApply(doc, paste0("//",info), xmlValue),error=function(e){NULL})
+				src <- tryCatch(xpathSApply(doc, paste0("/",info), xmlValue),error=function(e){NULL})
 				if(length(src)>0){
 					src<-unlist(src)
 					return(src)
