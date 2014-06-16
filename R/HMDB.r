@@ -13,7 +13,7 @@ getHMDB <- function(id,info="pathways"){
 				else if(info =="synonyms")info = "synonym"
 				else if(info =="cellularLOCATION")info = "tissue"
 				else if(info =="class")info = "super_class"
-				
+				else if(info =="name")info = "name"
 		
 	if(!id=="error"|| !is.null(id)){
 		# Create the url
