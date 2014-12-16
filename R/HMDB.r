@@ -12,7 +12,8 @@ getHMDB <- function(id,info="pathways"){
                 if(info =="pathways")info = "/pathway/name"
 				else if(info =="synonyms")info = "/synonym"
 				else if(info =="cellularLOCATION")info = "/tissue"
-				else if(info =="class")info = "/super_class"
+				else if(info =="superClass")info = "/super_class"
+				else if(info =="class")info = "taxonomy/class"
 				else if(info =="name")info = "metabolite/name"
 		
 	if(!id=="error"|| !is.null(id)){
